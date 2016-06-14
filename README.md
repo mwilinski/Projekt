@@ -1,1 +1,1 @@
-# Projekt - Alkomat
+# Projekt Akademia C# - Alkomat
