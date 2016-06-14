@@ -1,0 +1,51 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Alkotest"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="Alkotest.MainWindow"
+        mc:Ignorable="d"
+        Title="Alkomat" Height="380" Width="525">
+    <Grid Margin="0,0,2,4">
+        <Label x:Name="Alkotestnapis" HorizontalAlignment="Center" Margin="96,0,286,0" Content="Alkotest" FontSize="30" VerticalAlignment="Top" RenderTransformOrigin="4.224,0.893" Height="50" Width="123" />
+        <Label x:Name="plecnapis" HorizontalAlignment="Left"  Content="Wybierz płeć:" VerticalAlignment="Top" Margin="10,71,0,0" Height="32"/>
+
+        <Label x:Name="waganapis" HorizontalAlignment="Left" Margin="10,108,0,0" Content="Waga:" VerticalAlignment="Top"/>
+        <TextBox x:Name="wagabox" HorizontalAlignment="Left" Height="23" Margin="112,108,0,0"  VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="wieknapis" Content="Wiek:" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="wzrostnapis" Content="Wzrost:" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="wiek" HorizontalAlignment="Left" Height="23" Margin="112,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="wzrost" HorizontalAlignment="Left" Height="23" Margin="112,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="rodzajnapis" Content="Co piłeś?" HorizontalAlignment="Left" Margin="365,157,0,0" VerticalAlignment="Top"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="20" Margin="293,183,0,0" VerticalAlignment="Top" Width="205" RenderTransformOrigin="0.5,0.5">
+            <RadioButton x:Name="piwo" Content="Piwo"/>
+            <RadioButton x:Name="wino" Content="Wino"/>
+            <RadioButton x:Name="wodka" Content="Wódka"/>
+        </Menu>
+        <Label x:Name="iloscnapis" Content="Ile wypiłeś?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="209,211,0,0"/>
+        <Menu x:Name="plecmenu" HorizontalAlignment="Left" Height="21" Margin="112,76,0,0" VerticalAlignment="Top" Width="167">
+            <RadioButton x:Name="kobieta" Content="Kobieta"/>
+            <RadioButton x:Name="mezczyzna" Content="Mężczyzna"/>
+        </Menu>
+        <Button x:Name="Submit" Content="Licz!" HorizontalAlignment="Left" Margin="157,307,0,0" VerticalAlignment="Top" Width="75" Click="Submit_Click"/>
+        <TextBox x:Name="imie" HorizontalAlignment="Left" Height="20" Margin="35,307,0,0" TextWrapping="Wrap" Text="Twoje imie :)" VerticalAlignment="Top" Width="104"/>
+        <Button x:Name="minbut" Content="Min" HorizontalAlignment="Left" Margin="312,107,0,0" VerticalAlignment="Top" Width="75" Click="minbut_Click"/>
+        <Button x:Name="maxbut" Content="Max" HorizontalAlignment="Left" Margin="400,107,0,0" VerticalAlignment="Top" Width="75" Click="maxbut_Click"/>
+        <Label x:Name="twojenapis" Content="Twoje wyniki:" HorizontalAlignment="Left" Margin="357,71,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="wynik" Text="Tu pojawi sie Twój wynik w " HorizontalAlignment="Left" Margin="329,307,0,0" VerticalAlignment="Top" Height="20" Width="146"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="10,242,0,0" VerticalAlignment="Top" Width="413" Height="32" Maximum="1500" SmallChange="10"   Value="{Binding ElementName=ilebox, Path=Text, Mode=TwoWay}" Cursor="ScrollWE" TickPlacement="BottomRight" IsSnapToTickEnabled="True" TickFrequency="10" LargeChange="10"/>
+        <TextBox x:Name="ilebox" HorizontalAlignment="Left" Height="18" Margin="428,252,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="47"/>
+        <Image  x:Name="foto" HorizontalAlignment="Left" Height="71" Margin="307,0,0,0" VerticalAlignment="Top" Width="198" Source="alkohole.jpg" Stretch="UniformToFill" Focusable="True" Visibility="Visible" />
+        <Label x:Name="mlnapis" Content="ml" HorizontalAlignment="Left" Margin="475,248,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.398,7.996" Height="28"/>
+        <Label x:Name="promil" Content="‰" HorizontalAlignment="Left" Margin="473,302,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.398,7.996" Height="28"/>
+        <TextBlock x:Name="imieminmax" HorizontalAlignment="Left" Height="18" Margin="312,132,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="75"/>
+        <TextBlock x:Name="minmax" HorizontalAlignment="Left" Height="18" Margin="400,132,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="91"/>
+        <TextBlock x:Name="imiemtwoje" HorizontalAlignment="Left" Height="18" Margin="268,309,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="61"/>
+        <Label x:Name="kg" Content="kg" HorizontalAlignment="Left" Margin="232,106,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.398,7.996" Height="28"/>
+        <Label x:Name="lat" Content="lat" HorizontalAlignment="Left" Margin="232,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.398,7.996" Height="28"/>
+        <Label x:Name="cm" Content="cm" HorizontalAlignment="Left" Margin="232,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.398,7.996" Height="28"/>
+
+    </Grid>
+
+</Window>

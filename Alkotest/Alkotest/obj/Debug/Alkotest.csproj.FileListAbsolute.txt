@@ -1,0 +1,14 @@
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\bin\Debug\Alkotest.exe.config
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\bin\Debug\Alkotest.exe
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\bin\Debug\Alkotest.pdb
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\Alkotest.csprojResolveAssemblyReference.cache
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\MainWindow.g.cs
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\App.g.cs
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\Alkotest_MarkupCompile.cache
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\Alkotest_MarkupCompile.lref
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\MainWindow.baml
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\Alkotest.g.resources
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\Alkotest.Properties.Resources.resources
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\Alkotest.csproj.GenerateResource.Cache
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\Alkotest.exe
+c:\users\michał\documents\visual studio 2015\Projects\Alkotest\Alkotest\obj\Debug\Alkotest.pdb
